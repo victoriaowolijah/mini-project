@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: arial;
+  width: 90%;
+  margin: auto;
+  margin-top: 36px;
+}
+.heading {
+  margin: 10px 0;
+}
+
+/*SEARCH BOX SECTION*/
+.search-section {
+  background-color: #e60026;
+  padding: 11px;
+}
+
+#search {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+}
+
+.user-list-section {
+  margin-top: 20px;
+}
+
+li {
+  border: 1px solid #ee204d;
+  margin-top: -1px;
+  background-color: #fbceb1;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 12px;
+}
+
+li:hover {
+  background-color: #fd5c63;
+}
+
+/*pill button for username*/
+.username {
+  background-color: #f40009;
+  color: white;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+@media (min-width: 1000px) {
+  body {
+    width: 50%;
+  }
+
+  li {
+    font-size: 14px;
+  }
+}
